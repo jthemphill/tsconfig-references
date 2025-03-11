@@ -3,10 +3,10 @@
   "compilerOptions": {
     "noEmit": true
   },
-  "include": [],
+  "include": ["**/*.ts"],
+  "exclude": ["./a1/**/*", "./b1/**/*"],
   "references": [
     { "path": "./a1/tsconfig.json" },
-    { "path": "./b1/tsconfig.json" },
-    { "path": "./b1/b2/tsconfig.json" }
+    { "path": "./b1/tsconfig.json" }
   ]
 }

@@ -1,8 +1,9 @@
 {
-  "compilerOptions": {
-    "composite": true
-  },
+  "extends": "../tsconfig-base.json",
   "include": ["**/*.ts"],
   "exclude": ["a2/**"],
-  "references": [{ "path": "a2/tsconfig.json" }]
+  "references": [
+    { "path": "a2/tsconfig.json" },
+    { "path": "../b1/tsconfig.json" }
+  ]
 }

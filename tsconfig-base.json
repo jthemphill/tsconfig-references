@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "composite": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "outDir": "./built",
     "module": "NodeNext",
     "moduleResolution": "nodenext"
   }

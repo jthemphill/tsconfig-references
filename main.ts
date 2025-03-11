@@ -1,3 +1,3 @@
-import { B2 } from "./b1/b2";
+import { B2A } from "./b1/b2/b2a";
 
-new B2();
+new B2A();
